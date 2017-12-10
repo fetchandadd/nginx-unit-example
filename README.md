@@ -11,12 +11,12 @@ cd config
 ./configure.bash
 ```
 
-PHP
+Python
 ```sh
 http localhost:8081
 ```
 
-Python
+PHP
 ```sh
 http localhost:8082
 ```
