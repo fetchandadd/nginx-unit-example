@@ -12,14 +12,14 @@
 	"applications": {
 		"helloPython": {
 			"type": "python",
-			"workers": 2,
+			"processes": 2,
 			"path": "/var/www/python",
 			"module": "wsgi"
 		},
 
 		"helloPhp": {
 			"type": "php",
-			"workers": 2,
+			"processes": 2,
 			"root": "/var/www/php",
 			"index": "index.php"
 		}
