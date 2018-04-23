@@ -5,7 +5,7 @@ Install and start nginx unit via docker
 docker-compose up
 ```
 
-Configure nginx unit
+Nginx Unit is already configured through the image building process from Docker. It can be reconfigured with this:
 ```sh
 cd config
 ./configure.bash

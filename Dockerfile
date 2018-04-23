@@ -13,4 +13,6 @@ RUN apt-key add nginx_signing.key && \
 			unit-php=$VERSION \
 			unit-python2.7=$VERSION
 
+COPY config/conf.json /var/lib/unit/
+
 CMD ["/usr/sbin/unitd", "--no-daemon", "--control", "0.0.0.0:8080"]
