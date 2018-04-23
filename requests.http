@@ -1,0 +1,17 @@
+# configure
+PUT localhost:8080
+
+< config/config.json
+###
+
+
+# Python
+GET localhost:8081
+
+###
+
+
+# PHP
+GET localhost:8082
+
+###
