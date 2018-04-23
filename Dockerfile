@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 ARG VERSION=1.0-1~xenial
 
-ADD unit.list /etc/apt/sources.list.d/
+COPY unit.list /etc/apt/sources.list.d/
 
 ADD http://nginx.org/keys/nginx_signing.key .
 
