@@ -5,13 +5,44 @@ PUT localhost:8080
 ###
 
 
-# Python
+
+# Nginx Unit Example for PHP 7
+GET localhost:8300
+
+###
+
+
+# Nginx Unit Example for Python 2.7
+GET localhost:8400
+
+###
+
+
+# Nginx Unit Example for Go
+GET localhost:8500
+
+###
+
+
+# Nginx Unit Example for Perl
+GET localhost:8600
+
+###
+
+
+# Nginx Unit Example for Ruby
+GET localhost:8700
+
+###
+
+
+# Custom Example for Python 2.7
 GET localhost:8081
 
 ###
 
 
-# PHP
+# Custom Example for PHP 7
 GET localhost:8082
 
 ###
