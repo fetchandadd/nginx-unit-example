@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ARG VERSION=1.4-1~xenial
+ARG VERSION=1.6-1~xenial
 
 COPY unit.list /etc/apt/sources.list.d/
 
